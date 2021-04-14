@@ -1,91 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta chraset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta name="description" content="A website for employers to learn about Zach Robinsons abilities as an application developer.">
-        <meta name="author" content="Zach Robinson">
-        <link rel="icon" href="">
+	<head>
+		<meta chraset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, shrink-to-fit=no"
+		/>
+		<meta
+			name="description"
+			content="A website for employers to learn about Zach Robinsons abilities as an application developer."
+		/>
+		<meta name="author" content="Zach Robinson" />
+		<link rel="icon" href="" />
 
-        <title>F# Code Examples</title>
+		<title>F# Code Examples</title>
 
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="css/styles.css" rel="stylesheet">
-    </head>
-    <body>
-        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-            <a class="navbar-brand" href="index.html">Zach Robinson</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+		<link href="css/bootstrap.min.css" rel="stylesheet" />
+		<link href="css/styles.css" rel="stylesheet" />
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+			<a class="navbar-brand" href="index.html">Zach Robinson</a>
+			<button
+				class="navbar-toggler"
+				type="button"
+				data-toggle="collapse"
+				data-target="#navbarsExampleDefault"
+				aria-controls="navbarsExampleDefault"
+				aria-expanded="false"
+				aria-label="Toggle navigation"
+			>
+				<span class="navbar-toggler-icon"></span>
+			</button>
 
-            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle active" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Code Examples
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropDown">
-                            <a class="dropdown-item" href="csharp.html">C#</a>
-                            <a class="dropdown-item" href="fsharp.html">F#</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="plinko/index.html">JavaScript</a>
-                            <a class="dropdown-item" href="php/unit3_ex4/">PHP</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://github.com/msrobinson42/" target="_blank">My Github</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+			<div class="collapse navbar-collapse" id="navbarsExampleDefault">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Home</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a
+							class="nav-link dropdown-toggle active"
+							href="#"
+							role="button"
+							data-toggle="dropdown"
+							aria-haspopup="true"
+							aria-expanded="false"
+						>
+							Code Examples
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropDown">
+							<a class="dropdown-item" href="csharp.html">C#</a>
+							<a class="dropdown-item" href="fsharp.html">F#</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="plinko/">JavaScript</a>
+							<a class="dropdown-item" href="php/unit3_ex4/">PHP</a>
+						</div>
+					</li>
+					<li class="nav-item">
+						<a
+							class="nav-link"
+							href="https://github.com/msrobinson42/"
+							target="_blank"
+							>My Github</a
+						>
+					</li>
+				</ul>
+			</div>
+		</nav>
 
-        <header>
-            <div class="row">
-                <div class="col-sm-6 offset-3 text-center">
-                    <h1>Examples of F# Code</h1>
-                </div>
-            </div>
-        </header>
-        
-        <div class="row">
-            <div class="col-sm-6 offset-3">
-                <h2 class="text-center">Console Checkers</h2>
-                <p class="text-center">
-                    <a class="btn btn-primary" data-toggle="collapse" href="#checkersDemo" role="button" onclick="pauseVideo()"
-                        aria-expanded="false" aria-controls="checkersDemo">
-                        Watch a Demo
-                    </a>
-                </p>
-                <div class="collapse" id="checkersDemo">
-                    <div class="card card-body">
-                        <video id="demoVideo" preload="metadata" controls >
-                            <source src="assets/checkers_demo.mp4" type="video/mp4" />
-                        </video>
-                    </div>
-                </div>
-                <p>
-                    I set out to learn about the functional programming paradigm by recreating a familiar game. <br>
-                    I hoped to incorporate some of the principles laid out by Scott Wlaschin on his website 
-                    <a href="https://www.fsharpforfunandprofit.com">F# for fun and profit</a>. My goal was to use domain driven design to create
-                    an algebraic type system that was simple yet flexible. I also wanted to use Railway Oriented Programming to handle move validation.
-                </p>
-                <p><a href="https://github.com/msrobinson42/checkers" target="_blank" class="btn btn-outline-secondary">See on Github</a></p>
-            </div>
-        </div>
+		<header>
+			<div class="row">
+				<div class="col-sm-6 offset-3 text-center">
+					<h1>Examples of F# Code</h1>
+				</div>
+			</div>
+		</header>
 
+		<div class="row">
+			<div class="col-sm-6 offset-3">
+				<h2 class="text-center">Console Checkers</h2>
+				<p class="text-center">
+					<a
+						class="btn btn-primary"
+						data-toggle="collapse"
+						href="#checkersDemo"
+						role="button"
+						onclick="pauseVideo()"
+						aria-expanded="false"
+						aria-controls="checkersDemo"
+					>
+						Watch a Demo
+					</a>
+				</p>
+				<div class="collapse" id="checkersDemo">
+					<div class="card card-body">
+						<video id="demoVideo" preload="metadata" controls>
+							<source src="assets/checkers_demo.mp4" type="video/mp4" />
+						</video>
+					</div>
+				</div>
+				<p>
+					I set out to learn about the functional programming paradigm by
+					recreating a familiar game. <br />
+					I hoped to incorporate some of the principles laid out by Scott
+					Wlaschin on his website
+					<a href="https://www.fsharpforfunandprofit.com"
+						>F# for fun and profit</a
+					>. My goal was to use domain driven design to create an algebraic type
+					system that was simple yet flexible. I also wanted to use Railway
+					Oriented Programming to handle move validation.
+				</p>
+				<p>
+					<a
+						href="https://github.com/msrobinson42/checkers"
+						target="_blank"
+						class="btn btn-outline-secondary"
+						>See on Github</a
+					>
+				</p>
+			</div>
+		</div>
 
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script>
-            var vid = document.getElementById("demoVideo");
-            function pauseVideo() {
-                vid.pause();
-            }
-        </script>
-    </body>
+		<script
+			src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+			integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+			integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+			crossorigin="anonymous"
+		></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script>
+			var vid = document.getElementById("demoVideo");
+			function pauseVideo() {
+				vid.pause();
+			}
+		</script>
+	</body>
 </html>
