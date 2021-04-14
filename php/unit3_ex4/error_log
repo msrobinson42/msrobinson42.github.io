@@ -1,0 +1,10 @@
+[19-Nov-2020 00:28:36 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home3/mayiguy1/public_html/php/unit3_ex4/user_login.php:19
+Stack trace:
+#0 {main}
+  thrown in /home3/mayiguy1/public_html/php/unit3_ex4/user_login.php on line 19
+[19-Nov-2020 00:49:48 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/mayiguy1/public_html/php/unit3_ex4/user_login.php:38) in /home3/mayiguy1/public_html/php/unit3_ex4/user_login.php on line 39
+[19-Nov-2020 00:50:36 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/mayiguy1/public_html/php/unit3_ex4/user_login.php:38) in /home3/mayiguy1/public_html/php/unit3_ex4/user_login.php on line 39
+[19-Nov-2020 00:52:59 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/mayiguy1/public_html/php/unit3_ex4/user_login.php:38) in /home3/mayiguy1/public_html/php/unit3_ex4/user_login.php on line 39
+[19-Nov-2020 00:53:32 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/mayiguy1/public_html/php/unit3_ex4/user_login.php:38) in /home3/mayiguy1/public_html/php/unit3_ex4/user_login.php on line 39
+[19-Nov-2020 00:53:36 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/mayiguy1/public_html/php/unit3_ex4/user_login.php:38) in /home3/mayiguy1/public_html/php/unit3_ex4/user_login.php on line 39
+[19-Nov-2020 00:54:40 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/mayiguy1/public_html/php/unit3_ex4/user_login.php:38) in /home3/mayiguy1/public_html/php/unit3_ex4/user_login.php on line 40
